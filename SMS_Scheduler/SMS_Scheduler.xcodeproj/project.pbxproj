@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B953472767B5F5009BB2F0 /* MessageClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B953462767B5F5009BB2F0 /* MessageClass.swift */; };
+		48BABDD6276A191E001FBAB5 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BABDD5276A191E001FBAB5 /* Contact.swift */; };
+		48F9FD4527667D1A00C29AE0 /* SMS_SchedulerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9FD4427667D1A00C29AE0 /* SMS_SchedulerApp.swift */; };
+		48F9FD4727667D1A00C29AE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9FD4627667D1A00C29AE0 /* ContentView.swift */; };
+		48F9FD4927667D1B00C29AE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F9FD4827667D1B00C29AE0 /* Assets.xcassets */; };
+		48F9FD4C27667D1B00C29AE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48F9FD4B27667D1B00C29AE0 /* Preview Assets.xcassets */; };
+		48F9FD5627667D1B00C29AE0 /* SMS_SchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9FD5527667D1B00C29AE0 /* SMS_SchedulerTests.swift */; };
+		48F9FD6027667D1B00C29AE0 /* SMS_SchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9FD5F27667D1B00C29AE0 /* SMS_SchedulerUITests.swift */; };
+		48F9FD6227667D1B00C29AE0 /* SMS_SchedulerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9FD6127667D1B00C29AE0 /* SMS_SchedulerUITestsLaunchTests.swift */; };
+		48F9FD7127677ED100C29AE0 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9FD7027677ED100C29AE0 /* MessageView.swift */; };
+		48F9FD7327677FC800C29AE0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F9FD7227677FC800C29AE0 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48F9FD5227667D1B00C29AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F9FD3927667D1A00C29AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F9FD4027667D1A00C29AE0;
+			remoteInfo = SMS_Scheduler;
+		};
+		48F9FD5C27667D1B00C29AE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48F9FD3927667D1A00C29AE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48F9FD4027667D1A00C29AE0;
+			remoteInfo = SMS_Scheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48B953462767B5F5009BB2F0 /* MessageClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageClass.swift; sourceTree = "<group>"; };
+		48BABDD5276A191E001FBAB5 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		48BABDD9276B3E27001FBAB5 /* SMS-Scheduler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "SMS-Scheduler-Info.plist"; sourceTree = SOURCE_ROOT; };
+		48F9FD4127667D1A00C29AE0 /* SMS_Scheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMS_Scheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F9FD4427667D1A00C29AE0 /* SMS_SchedulerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_SchedulerApp.swift; sourceTree = "<group>"; };
+		48F9FD4627667D1A00C29AE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48F9FD4827667D1B00C29AE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48F9FD4B27667D1B00C29AE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48F9FD5127667D1B00C29AE0 /* SMS_SchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMS_SchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F9FD5527667D1B00C29AE0 /* SMS_SchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_SchedulerTests.swift; sourceTree = "<group>"; };
+		48F9FD5B27667D1B00C29AE0 /* SMS_SchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMS_SchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F9FD5F27667D1B00C29AE0 /* SMS_SchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_SchedulerUITests.swift; sourceTree = "<group>"; };
+		48F9FD6127667D1B00C29AE0 /* SMS_SchedulerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS_SchedulerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		48F9FD7027677ED100C29AE0 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		48F9FD7227677FC800C29AE0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48F9FD3E27667D1A00C29AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9FD4E27667D1B00C29AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9FD5827667D1B00C29AE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48F9FD3827667D1A00C29AE0 = {
+			isa = PBXGroup;
+			children = (
+				48F9FD4327667D1A00C29AE0 /* SMS_Scheduler */,
+				48F9FD5427667D1B00C29AE0 /* SMS_SchedulerTests */,
+				48F9FD5E27667D1B00C29AE0 /* SMS_SchedulerUITests */,
+				48F9FD4227667D1A00C29AE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48F9FD4227667D1A00C29AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48F9FD4127667D1A00C29AE0 /* SMS_Scheduler.app */,
+				48F9FD5127667D1B00C29AE0 /* SMS_SchedulerTests.xctest */,
+				48F9FD5B27667D1B00C29AE0 /* SMS_SchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48F9FD4327667D1A00C29AE0 /* SMS_Scheduler */ = {
+			isa = PBXGroup;
+			children = (
+				48BABDD9276B3E27001FBAB5 /* SMS-Scheduler-Info.plist */,
+				48F9FD4427667D1A00C29AE0 /* SMS_SchedulerApp.swift */,
+				48F9FD7227677FC800C29AE0 /* SettingsView.swift */,
+				48F9FD4627667D1A00C29AE0 /* ContentView.swift */,
+				48F9FD7027677ED100C29AE0 /* MessageView.swift */,
+				48B953462767B5F5009BB2F0 /* MessageClass.swift */,
+				48BABDD5276A191E001FBAB5 /* Contact.swift */,
+				48F9FD4827667D1B00C29AE0 /* Assets.xcassets */,
+				48F9FD4A27667D1B00C29AE0 /* Preview Content */,
+			);
+			path = SMS_Scheduler;
+			sourceTree = "<group>";
+		};
+		48F9FD4A27667D1B00C29AE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				48F9FD4B27667D1B00C29AE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48F9FD5427667D1B00C29AE0 /* SMS_SchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				48F9FD5527667D1B00C29AE0 /* SMS_SchedulerTests.swift */,
+			);
+			path = SMS_SchedulerTests;
+			sourceTree = "<group>";
+		};
+		48F9FD5E27667D1B00C29AE0 /* SMS_SchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48F9FD5F27667D1B00C29AE0 /* SMS_SchedulerUITests.swift */,
+				48F9FD6127667D1B00C29AE0 /* SMS_SchedulerUITestsLaunchTests.swift */,
+			);
+			path = SMS_SchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48F9FD4027667D1A00C29AE0 /* SMS_Scheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F9FD6527667D1B00C29AE0 /* Build configuration list for PBXNativeTarget "SMS_Scheduler" */;
+			buildPhases = (
+				48F9FD3D27667D1A00C29AE0 /* Sources */,
+				48F9FD3E27667D1A00C29AE0 /* Frameworks */,
+				48F9FD3F27667D1A00C29AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMS_Scheduler;
+			productName = SMS_Scheduler;
+			productReference = 48F9FD4127667D1A00C29AE0 /* SMS_Scheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48F9FD5027667D1B00C29AE0 /* SMS_SchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F9FD6827667D1B00C29AE0 /* Build configuration list for PBXNativeTarget "SMS_SchedulerTests" */;
+			buildPhases = (
+				48F9FD4D27667D1B00C29AE0 /* Sources */,
+				48F9FD4E27667D1B00C29AE0 /* Frameworks */,
+				48F9FD4F27667D1B00C29AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F9FD5327667D1B00C29AE0 /* PBXTargetDependency */,
+			);
+			name = SMS_SchedulerTests;
+			productName = SMS_SchedulerTests;
+			productReference = 48F9FD5127667D1B00C29AE0 /* SMS_SchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48F9FD5A27667D1B00C29AE0 /* SMS_SchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48F9FD6B27667D1B00C29AE0 /* Build configuration list for PBXNativeTarget "SMS_SchedulerUITests" */;
+			buildPhases = (
+				48F9FD5727667D1B00C29AE0 /* Sources */,
+				48F9FD5827667D1B00C29AE0 /* Frameworks */,
+				48F9FD5927667D1B00C29AE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48F9FD5D27667D1B00C29AE0 /* PBXTargetDependency */,
+			);
+			name = SMS_SchedulerUITests;
+			productName = SMS_SchedulerUITests;
+			productReference = 48F9FD5B27667D1B00C29AE0 /* SMS_SchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48F9FD3927667D1A00C29AE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					48F9FD4027667D1A00C29AE0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					48F9FD5027667D1B00C29AE0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 48F9FD4027667D1A00C29AE0;
+					};
+					48F9FD5A27667D1B00C29AE0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 48F9FD4027667D1A00C29AE0;
+					};
+				};
+			};
+			buildConfigurationList = 48F9FD3C27667D1A00C29AE0 /* Build configuration list for PBXProject "SMS_Scheduler" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48F9FD3827667D1A00C29AE0;
+			productRefGroup = 48F9FD4227667D1A00C29AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48F9FD4027667D1A00C29AE0 /* SMS_Scheduler */,
+				48F9FD5027667D1B00C29AE0 /* SMS_SchedulerTests */,
+				48F9FD5A27667D1B00C29AE0 /* SMS_SchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48F9FD3F27667D1A00C29AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F9FD4C27667D1B00C29AE0 /* Preview Assets.xcassets in Resources */,
+				48F9FD4927667D1B00C29AE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9FD4F27667D1B00C29AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9FD5927667D1B00C29AE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48F9FD3D27667D1A00C29AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BABDD6276A191E001FBAB5 /* Contact.swift in Sources */,
+				48F9FD7127677ED100C29AE0 /* MessageView.swift in Sources */,
+				48F9FD7327677FC800C29AE0 /* SettingsView.swift in Sources */,
+				48F9FD4727667D1A00C29AE0 /* ContentView.swift in Sources */,
+				48B953472767B5F5009BB2F0 /* MessageClass.swift in Sources */,
+				48F9FD4527667D1A00C29AE0 /* SMS_SchedulerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9FD4D27667D1B00C29AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F9FD5627667D1B00C29AE0 /* SMS_SchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F9FD5727667D1B00C29AE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F9FD6227667D1B00C29AE0 /* SMS_SchedulerUITestsLaunchTests.swift in Sources */,
+				48F9FD6027667D1B00C29AE0 /* SMS_SchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48F9FD5327667D1B00C29AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F9FD4027667D1A00C29AE0 /* SMS_Scheduler */;
+			targetProxy = 48F9FD5227667D1B00C29AE0 /* PBXContainerItemProxy */;
+		};
+		48F9FD5D27667D1B00C29AE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48F9FD4027667D1A00C29AE0 /* SMS_Scheduler */;
+			targetProxy = 48F9FD5C27667D1B00C29AE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48F9FD6327667D1B00C29AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48F9FD6427667D1B00C29AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48F9FD6627667D1B00C29AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SMS_Scheduler/Preview Content\"";
+				DEVELOPMENT_TEAM = B88Y6SKUDD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SMS-Scheduler-Info.plist";
+				INFOPLIST_KEY_NSContactsUsageDescription = "SMS Scheduler want to access to you Contacts";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanniteresi.SMS-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		48F9FD6727667D1B00C29AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SMS_Scheduler/Preview Content\"";
+				DEVELOPMENT_TEAM = B88Y6SKUDD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SMS-Scheduler-Info.plist";
+				INFOPLIST_KEY_NSContactsUsageDescription = "SMS Scheduler want to access to you Contacts";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanniteresi.SMS-Scheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		48F9FD6927667D1B00C29AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B88Y6SKUDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanniteresi.SMS-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS_Scheduler.app/SMS_Scheduler";
+			};
+			name = Debug;
+		};
+		48F9FD6A27667D1B00C29AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B88Y6SKUDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanniteresi.SMS-SchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SMS_Scheduler.app/SMS_Scheduler";
+			};
+			name = Release;
+		};
+		48F9FD6C27667D1B00C29AE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B88Y6SKUDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanniteresi.SMS-SchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMS_Scheduler;
+			};
+			name = Debug;
+		};
+		48F9FD6D27667D1B00C29AE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B88Y6SKUDD;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanniteresi.SMS-SchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SMS_Scheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48F9FD3C27667D1A00C29AE0 /* Build configuration list for PBXProject "SMS_Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9FD6327667D1B00C29AE0 /* Debug */,
+				48F9FD6427667D1B00C29AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F9FD6527667D1B00C29AE0 /* Build configuration list for PBXNativeTarget "SMS_Scheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9FD6627667D1B00C29AE0 /* Debug */,
+				48F9FD6727667D1B00C29AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F9FD6827667D1B00C29AE0 /* Build configuration list for PBXNativeTarget "SMS_SchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9FD6927667D1B00C29AE0 /* Debug */,
+				48F9FD6A27667D1B00C29AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48F9FD6B27667D1B00C29AE0 /* Build configuration list for PBXNativeTarget "SMS_SchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F9FD6C27667D1B00C29AE0 /* Debug */,
+				48F9FD6D27667D1B00C29AE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48F9FD3927667D1A00C29AE0 /* Project object */;
+}
